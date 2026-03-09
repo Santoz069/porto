@@ -62,8 +62,8 @@ export function HeroSection() {
         <div className="flex flex-wrap items-center justify-center gap-4 mt-6">
           {/* Download CV */}
           <a
-            href="/cv.pdf.pdf"
-            download="cv.pdf.pdf"
+            href="/cv.pdf"
+            download="cv.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 text-sm font-semibold text-white hover:bg-blue-700 transition"
           >
             <Download size={18} />
